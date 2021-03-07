@@ -1,0 +1,33 @@
+footer{
+    background-color: #545454;
+    height: 160px;
+    color: white;
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-direction: column;
+    font-size: 14px;
+
+    a{
+        color: white;
+        text-decoration: none;
+        margin-left: 16px;
+        margin-right: 16px;
+        font-size: 14px!important;
+        font-weight: 400!important;
+
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+
+    div{
+        margin-top: 16px;
+    }
+
+}
+
+.social-media {
+    display: flex;
+}

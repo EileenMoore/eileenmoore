@@ -1,3 +1,4 @@
-<div class="slideshow-container">
-  <img *ngIf="showImage" class="img-slideshow" src="assets/img/{{images[currentImage]}}">
+<app-menu [darkMode]="router.url !=='/'"></app-menu>
+<div [class.router-container]="router.url !=='/'">
+    <router-outlet></router-outlet>
 </div>

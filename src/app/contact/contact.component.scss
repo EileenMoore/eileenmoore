@@ -1,0 +1,35 @@
+.contact-container{
+    padding: 80px 120px 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form {
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+
+    input{
+        margin-top: 16px;
+        padding: 8px;
+    }
+    textarea{
+        margin-top: 16px;
+        margin-bottom: 16px;
+        padding: 8px; 
+        font-family: 'Roboto', sans-serif;
+        min-height: 200px;
+    }
+    .button-container{
+        display: flex;
+        justify-content: center;
+    
+        .btn-light {
+            background-color: darkred!important;
+            color: white;
+        }
+    }
+    
+}
+
