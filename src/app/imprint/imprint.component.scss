@@ -1,3 +1,24 @@
 .imprint-container{
     padding: 80px 120px 80px;
 }
+
+@media only screen and (max-width: 900px) {
+
+    .imprint-container{
+        padding: 16px;
+        min-height: calc(100vh - 160px);
+    }
+    
+    h1{
+        font-size: 2em;
+    }
+
+    h2{
+        font-size: 1.5em;
+    }
+
+    h3{
+        font-size: 1em;
+    }
+
+}

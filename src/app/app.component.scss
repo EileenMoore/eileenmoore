@@ -4,4 +4,9 @@
     padding-top: 80px;
 }
 
+@media only screen and (max-width: 900px) {
+    body {
+        padding-top: 0;
+    }
+  }
 

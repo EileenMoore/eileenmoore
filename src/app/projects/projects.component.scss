@@ -1,27 +1,13 @@
-// .mdl-card {
-//     width: 512px;
-//     margin: 16px;
-// }
-
-// .mdl-card__title {
-//     color: 000000;
-//     height: 176px;
-// }
-
-// .mdl-card__menu {
-//     color: #fff;
-// }
-
-// .mdl-card__title-text{
-//     font-weight: 500;
-// }
+h1{
+    margin-bottom: 32px;
+}
 
 .projects-container{
-padding: 80px 120px 80px;
-display: flex;
-flex-direction: column;
-align-items: center;
-background-color: #e3e3e3;
+    padding: 80px 120px 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(0,0,0,0.05);
 }
 
 .project-cards{
@@ -31,16 +17,71 @@ background-color: #e3e3e3;
 }
 
 .card{
-    margin: 32px;
-    width: 500px!important;
+    margin: 16px;
 
-    img{
-        object-fit: cover;
+    .image-container{
+        position: relative;
+        width: 500px;
         height: 250px;
+        
+        a{
+            width: 100%;
+            height: 100%;
+        }
+
+        img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .overlay {
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background-color: rgba(0,0,0,0.2);
+            transition: all 225ms;
+            opacity: 0;
+    
+            &:hover{
+                opacity:1;
+                cursor: pointer;
+            }
+        }
+
     }
+    
     .btn-light {
         background-color: darkred!important;
         color: white;
     }
 
 }
+
+@media only screen and (max-width: 900px) {
+
+    h1{
+        margin-bottom: 0;
+    }
+
+    .projects-container{
+        padding: 16px;
+    }
+
+    .project-cards{
+        margin: 0;
+    }
+
+    .card{
+        margin:  16px 0 0 0;
+        
+        .image-container{
+            width: 100%;
+            height: 100%;
+        }
+    }
+
+  }
+
