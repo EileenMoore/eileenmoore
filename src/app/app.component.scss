@@ -1,12 +1,25 @@
-.router-container{
+.router-container {
     // padding-left: 120px;
     // padding-right: 120px;
     padding-top: 80px;
+}
+
+.responsive-menu {
+    position: absolute;
+    top: 16px;
+    right: 16px;
+    z-index: 2;
+    img {
+        height: 50px;
+        cursor: pointer;
+        &:focus {
+            outline: none;
+        }
+    }
 }
 
 @media only screen and (max-width: 900px) {
     body {
         padding-top: 0;
     }
-  }
-
+}

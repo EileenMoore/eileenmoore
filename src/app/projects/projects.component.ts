@@ -28,6 +28,11 @@ export class ProjectsComponent implements OnInit {
       'image': '../../assets/img/lieferondo.png',
       'description': 'Replication of a food delivery website.',
       'link': 'http://eileen-moore.developerakademie.com/Lieferando/'
+    }, {
+      'name': 'Ring of Fire',
+      'image': '../../assets/img/ringoffire.png',
+      'description': 'Multiplayer card game created with Angular and Firebase.',
+      'link': 'https://ring-of-fire-5a7f1.web.app/ringoffire/'
     }
   ];
 

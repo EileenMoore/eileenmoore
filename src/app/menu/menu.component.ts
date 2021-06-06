@@ -6,10 +6,14 @@ import { Component, Input, OnInit } from '@angular/core';
   styleUrls: ['./menu.component.scss']
 })
 export class MenuComponent implements OnInit {
-@Input() darkMode = true;
+  @Input() darkMode = true;
+
+  @Input() mobile = false;
+
   constructor() { }
 
   ngOnInit(): void {
   }
 
 }
+

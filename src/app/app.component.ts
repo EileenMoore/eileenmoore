@@ -8,6 +8,19 @@ import { Router } from '@angular/router';
 })
 export class AppComponent {
 
-  constructor(public router: Router) {} 
-  
+  constructor(public router: Router) { }
+
+  mobile = false;
+  responsiveMenu = false;
+
+  ngOnInit(): void {
+    if (window.screen.width < 900) {
+      this.mobile = true;
+    }
+  }
+
+  showResponsiveMenu() {
+    this.responsiveMenu = !this.responsiveMenu;
+  }
+
 }

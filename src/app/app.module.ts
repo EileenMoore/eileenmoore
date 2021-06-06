@@ -11,6 +11,7 @@ import { FooterComponent } from './footer/footer.component';
 import { AboutMeComponent } from './about-me/about-me.component';
 import { ProjectsComponent } from './projects/projects.component';
 import { ContactComponent } from './contact/contact.component';
+import { ResponsiveMenuComponent } from './responsive-menu/responsive-menu.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { ContactComponent } from './contact/contact.component';
     FooterComponent,
     AboutMeComponent,
     ProjectsComponent,
-    ContactComponent
+    ContactComponent,
+    ResponsiveMenuComponent
   ],
   imports: [
     BrowserModule,
