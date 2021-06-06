@@ -33,6 +33,16 @@ export class ProjectsComponent implements OnInit {
       'image': '../../assets/img/ringoffire.png',
       'description': 'Multiplayer card game created with Angular and Firebase.',
       'link': 'https://ring-of-fire-5a7f1.web.app/ringoffire/'
+    }, {
+      'name': 'Pokedex',
+      'image': '../../assets/img/pokemon.png',
+      'description': 'Website that uses a Pokemon API.',
+      'link': 'http://eileen-moore.developerakademie.com/pokedex/'
+    }, {
+      'name': 'Bitcoin-Kurs',
+      'image': '../../assets/img/bitcoin.png',
+      'description': 'Website that uses quandl to show the current Bitcoin stock price.',
+      'link': 'http://eileen-moore.developerakademie.com/quandl/'
     }
   ];
 

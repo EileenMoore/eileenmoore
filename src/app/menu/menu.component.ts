@@ -8,8 +8,6 @@ import { Component, Input, OnInit } from '@angular/core';
 export class MenuComponent implements OnInit {
   @Input() darkMode = true;
 
-  @Input() mobile = false;
-
   constructor() { }
 
   ngOnInit(): void {

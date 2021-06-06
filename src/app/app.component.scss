@@ -5,6 +5,7 @@
 }
 
 .responsive-menu {
+    display: none;
     position: absolute;
     top: 16px;
     right: 16px;
@@ -21,5 +22,8 @@
 @media only screen and (max-width: 900px) {
     body {
         padding-top: 0;
+    }
+    .responsive-menu {
+        display: block;
     }
 }

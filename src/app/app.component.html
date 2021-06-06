@@ -1,6 +1,6 @@
-<app-menu [mobile]="mobile" [darkMode]="router.url !=='/'"></app-menu>
+<app-menu [darkMode]="router.url !=='/'"></app-menu>
 
-<div class="responsive-menu" *ngIf="mobile">
+<div class="responsive-menu">
     <img (click)="showResponsiveMenu()" src="assets/img/menu.png">
 </div>
 
