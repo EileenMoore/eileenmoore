@@ -14,6 +14,11 @@ export class ProjectsComponent implements OnInit {
       'description': 'Jump and run game based on JavaScript.',
       'link': 'http://eileen-moore.developerakademie.com/El%20Pollo%20Loco/'
     }, {
+      'name': 'Memory',
+      'image': '../../assets/img/memory.png',
+      'description': 'Multiplayer memory game.',
+      'link': 'http://eileen-moore.developerakademie.com/memory'
+    }, {
       'name': 'JOIN',
       'image': '../../assets/img/join.png',
       'description': 'Group project of a business application.',
